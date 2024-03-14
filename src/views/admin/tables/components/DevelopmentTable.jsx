@@ -117,8 +117,6 @@ const DevelopmentTable = (props) => {
         })
     }, []);
 
-    console.log(tableData)
-
     return (
         <Table columns={columns} dataSource={tableData}  rowKey={(record) => record.SECID
         }/>
